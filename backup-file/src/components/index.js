@@ -28,5 +28,4 @@ export {
   ComputersCanvas,
   StarsCanvas,
   SocialMedia,
-  
 };
