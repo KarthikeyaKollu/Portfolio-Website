@@ -36,9 +36,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "K S Sai Teja ",
+          to_name: "Karthikeya",
           from_email: form.email,
-          to_email: "saitej4865@gmai.com",
+          to_email: "20981a0493@raghuenggcollege.in",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -58,7 +58,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Hmm, something went wrong! Please try again.");
         }
       );
   };
