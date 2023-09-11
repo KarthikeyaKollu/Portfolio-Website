@@ -54,6 +54,22 @@ const services = [
     icon: backend,
   },
   {
+    title: "Android Studio",
+    icon: creator,
+  },
+  {
+    title: "Embeded Systems",
+    icon: creator,
+  },
+  {
+    title: "VSLI",
+    icon: creator,
+  },
+  {
+    title: "Opensource",
+    icon: creator,
+  },
+  {
     title: "Promt Engineer",
     icon: creator,
   },

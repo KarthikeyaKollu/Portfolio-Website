@@ -47,11 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a highly disciplined and driven professional, adept at thriving in fast-paced settings while consistently delivering work of exceptional quality. My ability to collaborate effectively within diverse teams enables me to seamlessly follow instructions from individuals at all hierarchical levels, fostering strong working alliances with colleagues. Moreover, my adaptability, dependability, and impeccable time management skills further contribute to my track record of success.
+       👋 I'm a proficient professional well-versed in cutting-edge technologies such as React, Next.js, Tailwind CSS, MongoDB, Docker, Kubernetes, and Git. My expertise enables me to create efficient, scalable, and collaborative web applications.
+
+I'm passionate about staying updated with industry trends and thrive on solving complex challenges. With a dedication to continuous learning, I aim to remain at the forefront of technological advancements.
+
+My goal is to craft exceptional digital experiences and optimize workflows, ensuring my contributions drive success in the ever-evolving world of software development." 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
+        {services.map((service, index) => ( 
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
