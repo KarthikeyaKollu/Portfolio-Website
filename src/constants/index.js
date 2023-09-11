@@ -90,6 +90,7 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
+  
   {
     name: "JavaScript",
     icon: javascript,
@@ -134,6 +135,8 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+
+  
 ];
 
 
@@ -143,8 +146,8 @@ const experiences = [
   {
     title: "Student Intern (AWS)",
     company_name: "Amazon Web Services",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: starbucks,//amazon
+    iconBg: "white",
     date: "june 2022 - july 2022",
     points: [
       "During my AWS internship, I actively worked with a variety of AWS services, managing cloud resources and handling data with services like EC2, S3, and RDS.",
@@ -157,7 +160,7 @@ const experiences = [
     title: "Student Intern",
     company_name: "Google Developers Group",
     icon: tesla,
-    iconBg: "#E6DEDD",
+    iconBg: "white",
     date: "Aug 2022 - Sep 2022",
     points: [
       "I have earned a prestigious certification from Google Developers Group through DevTown, validating my proficiency in utilizing Google's tools and technologies.",
@@ -170,7 +173,7 @@ const experiences = [
     title: "Student Intern",
     company_name: "Microsoft Learn Student Ambassadors ",
     icon: shopify,
-    iconBg: "#383E56",
+    iconBg: "white",
     date: "Jan 2022 - Jan 2022",
     points: [
       " hold the prestigious title of a Microsoft Learn Student Ambassador, which signifies my dedication to technology education and innovation advocacy.",
@@ -222,12 +225,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "DisneyDreams",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "a new entertainment project delivering the enchantment of Disney+Hotstar with a world of movies and shows, making magic accessible on your screens.",
     tags: [
       {
-        name: "react",
+        name: "reactJS",
         color: "blue-text-gradient",
       },
       {
@@ -235,21 +238,21 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindCSS",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
-    Project_link: "https://example.com/",
+    Project_link: "",
   },
   {
-    name: "Job IT",
+    name: "ClimaScope",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The convenience of staying informed with real-time weather updates, precise forecasts, and personalized notifications tailored to your location, all at your fingertips.",
     tags: [
       {
-        name: "react",
+        name: "reactJS",
         color: "blue-text-gradient",
       },
       {
@@ -263,19 +266,19 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
-    Project_link: "https://example.com/",
+    Project_link: "",
   },
   {
-    name: "Trip Guide",
+    name: "Language-Translator",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Language Translator with Auto Language Detection! Say bye to language obstacles. Our  technology automatically identifies the language you're speaking or typing.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "TranslatorAPI",
         color: "green-text-gradient",
       },
       {
@@ -285,7 +288,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
-    Project_link: "https://example.com/",
+    Project_link: "",
   },
 
 ];

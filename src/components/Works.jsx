@@ -95,6 +95,10 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      <h1 style={{textAlign:"end",paddingTop:"20px"}}>
+        <a style={{marginRight:"20px" ,fontSize:"20px"}} href="www.google.com">See more</a>
+      </h1>
+     
     </>
   );
 };
