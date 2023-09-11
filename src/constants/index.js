@@ -1,6 +1,7 @@
 import {
   mobile,
   backend,
+  android,
   creator,
   web,
   javascript,
@@ -23,6 +24,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  uiux,
+  opensource,
+  embeded,
+  VLSI,
+  prompt
 } from "../assets";
 
 export const navLinks = [
@@ -47,31 +53,31 @@ const services = [
   },
   {
     title: "Backend Developer",
-    icon: mobile,
-  },
-  {
-    title: "UI/UX Designer",
     icon: backend,
   },
   {
+    title: "UI/UX Designer",
+    icon: uiux,
+  },
+  {
     title: "Android Studio",
-    icon: creator,
+    icon: android,
   },
   {
     title: "Embeded Systems",
-    icon: creator,
+    icon: embeded,
   },
   {
     title: "VSLI",
-    icon: creator,
+    icon: VLSI,
   },
   {
     title: "Opensource",
-    icon: creator,
+    icon:opensource,
   },
   {
     title: "Promt Engineer",
-    icon: creator,
+    icon: prompt,
   },
 ];
 

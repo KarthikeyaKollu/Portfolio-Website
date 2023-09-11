@@ -19,7 +19,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import android from "./android.png";
+import uiux from "./uiux.png";
+import embeded from "./embeded.png";
+import opensource from "./opensource.png";
+import VLSI from "./VLSI.png";
+import prompt from "./prompt.png";
 
 
 import meta from "./company/meta.png";
@@ -60,5 +65,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  android,
+  uiux,
+  embeded,
+  opensource,
+  VLSI,
+  prompt
 
 };
