@@ -96,7 +96,7 @@ const Works = () => {
         ))}
       </div>
       <h1 style={{textAlign:"end",paddingTop:"20px"}}>
-        <a style={{marginRight:"20px" ,fontSize:"20px"}} href="www.google.com">See more</a>
+        <a style={{marginRight:"20px" ,fontSize:"20px"}} className="hover:underline underline-offset-4" href="www.google.com">See more</a>
       </h1>
      
     </>

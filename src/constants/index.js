@@ -68,7 +68,7 @@ const services = [
     icon: embeded,
   },
   {
-    title: "VSLI",
+    title: "VLSI",
     icon: VLSI,
   },
   {
@@ -183,7 +183,7 @@ const experiences = [
     ],
   },
   {
-    title: "Intern in Real Time Embedded",
+    title: "Internship in Real Time Embedded Systems",
     company_name: "Robocoupler",
     icon: meta,
     iconBg: "#E6DEDD",
@@ -199,7 +199,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Kamaji: Scaling Kubernetes with Ease",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -207,7 +207,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Kubernetes Architecture and Components.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -215,7 +215,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Navigating the DevOps Roadmap",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
