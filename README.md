@@ -26,10 +26,10 @@ This project leverages the following technologies and libraries:
 - React.js
 - Three.js
 - Vite (for development)
-- React Router DOM
+- React-Router-DOM
 - Framer Motion
 - Lottie
-- Maath
+- Math
 - Email.js
 - Tailwind CSS
 - ESLint
