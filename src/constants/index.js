@@ -1,5 +1,4 @@
 import {
-
   backend,
   android,
   web,
@@ -27,7 +26,7 @@ import {
   opensource,
   embeded,
   VLSI,
-  prompt
+  prompt,
 } from "../assets";
 
 export const navLinks = [
@@ -72,7 +71,7 @@ const services = [
   },
   {
     title: "Opensource",
-    icon:opensource,
+    icon: opensource,
   },
   {
     title: "Promt Engineer",
@@ -89,7 +88,7 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  
+
   {
     name: "JavaScript",
     icon: javascript,
@@ -134,29 +133,23 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-
-  
 ];
-
-
-
 
 const experiences = [
   {
-    title: "Student Intern (AWS)",
+    title: "Internship in Cloud Computing",
     company_name: "Amazon Web Services",
-    icon: starbucks,//amazon
+    icon: starbucks, //amazon
     iconBg: "white",
     date: "june 2022 - july 2022",
     points: [
       "During my AWS internship, I actively worked with a variety of AWS services, managing cloud resources and handling data with services like EC2, S3, and RDS.",
       "My internship allowed me to develop strong cloud architecture skills, designing scalable and resilient cloud infrastructures that met the specific requirements of our projects.",
       "This internship experience reinforced my dedication to cloud technology as a driving force behind modern IT solutions, motivating me to continue exploring its potential in future endeavors.",
-     
     ],
   },
   {
-    title: "Student Intern",
+    title: "Internship in Web Development",
     company_name: "Google Developers Group",
     icon: tesla,
     iconBg: "white",
@@ -165,11 +158,10 @@ const experiences = [
       "I have earned a prestigious certification from Google Developers Group through DevTown, validating my proficiency in utilizing Google's tools and technologies.",
       "My involvement in various tech events allowed me to engage with the tech community, exchange ideas, and gain insights into emerging trends and best practices.",
       "This certification underscores my commitment to staying at the forefront of technology, ensuring that I can consistently deliver impactful solutions in the dynamic and ever-evolving digital landscape.",
-
     ],
   },
   {
-    title: "Student Intern",
+    title: "Internship in Frontend Web Development",
     company_name: "Microsoft Learn Student Ambassadors ",
     icon: shopify,
     iconBg: "white",
@@ -178,7 +170,6 @@ const experiences = [
       " hold the prestigious title of a Microsoft Learn Student Ambassador, which signifies my dedication to technology education and innovation advocacy.",
       " actively engage with both peers and educators, bridging the gap between students and industry professionals, and fostering an environment of collaboration and learning.",
       "facilitate workshops that enable students to gain practical experience with the latest technologies, helping them build valuable skills that are relevant to today's tech landscape.",
-
     ],
   },
   {
@@ -197,24 +188,21 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "Kamaji: Scaling Kubernetes with Ease",
+    testimonial: "Kamaji: Scaling Kubernetes with Ease",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial:
-      "Kubernetes Architecture and Components.",
+    testimonial: "Kubernetes Architecture and Components.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial:
-      "Navigating the DevOps Roadmap",
+    testimonial: "Navigating the DevOps Roadmap",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -229,7 +217,7 @@ const projects = [
       "a new entertainment project delivering the enchantment of Disney+Hotstar with a world of movies and shows, making magic accessible on your screens.",
     tags: [
       {
-        name: "reactJS",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
@@ -251,11 +239,11 @@ const projects = [
       "The convenience of staying informed with real-time weather updates, precise forecasts, and personalized notifications tailored to your location, all at your fingertips.",
     tags: [
       {
-        name: "reactJS",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Restapi",
         color: "green-text-gradient",
       },
       {
@@ -273,7 +261,7 @@ const projects = [
       "Language Translator with Auto Language Detection! Say bye to language obstacles. Our  technology automatically identifies the language you're speaking or typing.",
     tags: [
       {
-        name: "reactJS",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
@@ -289,6 +277,5 @@ const projects = [
     source_code_link: "https://github.com/",
     Project_link: "",
   },
-
 ];
-export { services, technologies, experiences, testimonials, projects,  };
+export { services, technologies, experiences, testimonials, projects };
