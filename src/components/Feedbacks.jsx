@@ -60,6 +60,9 @@ const Feedbacks = () => {
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
       </div>
+      <h1 style={{ textAlign: "end", paddingTop: "10px" }}>
+        <a style={{ marginRight: "20px", fontSize: "20px",marginBottom:"10px" }} className="hover:underline underline-offset-4" href="https://blog.karthikeyakollu.me/">See more..</a>
+      </h1>
     </div>
   );
 };

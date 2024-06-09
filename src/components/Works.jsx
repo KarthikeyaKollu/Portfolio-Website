@@ -29,7 +29,7 @@ const ProjectCard = ({
       >
         <div className='relative w-full h-[230px] cursor-pointer' onClick={() => window.open(Project_link, "_blank")}>
           <img
-            
+
             src={image}
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
@@ -95,10 +95,10 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-      <h1 style={{textAlign:"end",paddingTop:"20px"}}>
-        <a style={{marginRight:"20px" ,fontSize:"20px"}} className="hover:underline underline-offset-4" href="www.google.com">See more..</a>
+      <h1 style={{ textAlign: "end", paddingTop: "20px" }}>
+        <a style={{ marginRight: "20px", fontSize: "20px" }} className="hover:underline underline-offset-4" href="https://github.com/KarthikeyaKollu?tab=repositories">See more..</a>
       </h1>
-     
+
     </>
   );
 };

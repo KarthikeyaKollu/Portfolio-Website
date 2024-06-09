@@ -27,6 +27,9 @@ import {
   embeded,
   VLSI,
   prompt,
+  crm,
+  medisearch,
+  procase
 } from "../assets";
 
 export const navLinks = [
@@ -137,27 +140,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Internship in Cloud Computing",
-    company_name: "Amazon Web Services",
-    icon: starbucks, //amazon
+    title: "Embedded Systems and Robotics",
+    company_name: "Robocoupler",
+    icon: meta, //amazon
     iconBg: "white",
-    date: "june 2022 - july 2022",
+    date: "May 2023 - Sep 2023",
     points: [
-      "During my AWS internship, I actively worked with a variety of AWS services, managing cloud resources and handling data with services like EC2, S3, and RDS.",
-      "My internship allowed me to develop strong cloud architecture skills, designing scalable and resilient cloud infrastructures that met the specific requirements of our projects.",
-      "This internship experience reinforced my dedication to cloud technology as a driving force behind modern IT solutions, motivating me to continue exploring its potential in future endeavors.",
+      "Interned in Embedded Systems and Robotics.",
+      "Learned hardware-software integration.",
+      "Studied control algorithms.",
+      "Gained experience in firmware programming",
+      "Contributed to real-world projects.",
+      "Worked collaboratively in a team environment."
     ],
   },
   {
     title: "Internship in Web Development",
-    company_name: "Google Developers Group",
+    company_name: "Google Developers Group by devTown",
     icon: tesla,
     iconBg: "white",
-    date: "Aug 2022 - Sep 2022",
+    date: "Aug 2022 - Aug 2022",
     points: [
-      "I have earned a prestigious certification from Google Developers Group through DevTown, validating my proficiency in utilizing Google's tools and technologies.",
-      "My involvement in various tech events allowed me to engage with the tech community, exchange ideas, and gain insights into emerging trends and best practices.",
-      "This certification underscores my commitment to staying at the forefront of technology, ensuring that I can consistently deliver impactful solutions in the dynamic and ever-evolving digital landscape.",
+      "Certified by Google Developers Group by DevTown.",
+      "Honed skills through workshops, hackathons, and tech events.",
+      "Utilized Google's tools for innovative software solutions",
+      "Demonstrated dedication to staying at the cutting edge of technology.",
+      "Committed to delivering impactful solutions in the ever-evolving digital landscape.",
     ],
   },
   {
@@ -167,54 +175,70 @@ const experiences = [
     iconBg: "white",
     date: "Jan 2022 - Jan 2022",
     points: [
-      " hold the prestigious title of a Microsoft Learn Student Ambassador, which signifies my dedication to technology education and innovation advocacy.",
-      " actively engage with both peers and educators, bridging the gap between students and industry professionals, and fostering an environment of collaboration and learning.",
-      "facilitate workshops that enable students to gain practical experience with the latest technologies, helping them build valuable skills that are relevant to today's tech landscape.",
+      "Completed AWS Academy Cloud Foundations.",
+      "Gained hands-on experience in cloud computing.",
+      "Learned about various AWS services and infrastructure management.",
+      "Collaborated on real-world projects.",
+      "Honed skills in cloud architecture, automation, and scalability.",
+      "Solidified commitment to cloud technology and its role in modern IT solutions.",
     ],
   },
   {
-    title: "Internship in Real Time Embedded Systems",
-    company_name: "Robocoupler",
-    icon: meta,
+    title: "OpenSource Contribution",
+    company_name: "Continue",
+    icon: opensource,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Mar 2023",
+    date: "Mar 2024 - Mar 2024",
     points: [
-      "Gain hands-on experience in integrating hardware and software components, ensuring seamless communication and functionality within embedded systems.",
-      "Hone my skills in developing control algorithms that enabled precise and efficient operation of robotic systems, enhancing their capabilities.",
-      "Actively contribute to real-world projects as part of a collaborative team, applying my knowledge and skills to solve practical challenges in the field of robotics and embedded systems.",
+      "Developed a native app for continue.dev, an open-source VS Code co-pilot.",
+      "Demonstrated full OS integration beyond VS Code or JetBrains.",
+      "Attracted attention from potential employers due to the innovative project.",
+    ],
+  },
+  {
+    title: "OpenSource Contribution",
+    company_name: "MediSearch",
+    icon: opensource,
+    iconBg: "#E6DEDD",
+    date: "Mar 2024 - Mar 2024",
+    points: [
+      "Developed a full-stack solution for Medisearch.io.",
+      "Integrated LLM (Language Model) for enhanced functionality.",
+      "Impressed stakeholders with a compelling demo.",
+
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial: "Kamaji: Scaling Kubernetes with Ease",
-    name: "Sara Lee",
+    testimonial: "How to set up continue with Google Gemini API",
+    name: "Nate Sesti",
     designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "continue",
+    image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1712924327882/9d1c5b65-e5d0-43bb-8d5f-d8d31e04545f.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
   },
   {
     testimonial: "Kubernetes Architecture and Components.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Michal pandáy",
+    designation: "Founder",
+    company: "Mediserach",
+    image: "https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/GSiEeoHcNTQ/upload/6f4c34e0984876bb8effc3f1c64e2b1f.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
   },
   {
-    testimonial: "Navigating the DevOps Roadmap",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    testimonial: "Getting started with Onedoc",
+    name: "Auguste",
+    designation: "CO-Founder",
+    company: "FileForge",
+    image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1714141408773/4b57ce4e-cf83-45c6-aca0-a8d1f5d0b57e.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
   },
 ];
 
 const projects = [
   {
-    name: "DisneyDreams",
+    name: "Customer Relationship Management",
     description:
-      "a new entertainment project delivering the enchantment of Disney+Hotstar with a world of movies and shows, making magic accessible on your screens.",
+      "Enhanced clientmanagement bydeveloping anddeploying a CRM application, stream lining operations and improving business efficiency.",
     tags: [
       {
         name: "ReactJS",
@@ -228,37 +252,38 @@ const projects = [
         name: "tailwindCSS",
         color: "pink-text-gradient",
       },
+      
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-    Project_link: "",
+    image: crm,
+    source_code_link: "https://github.com/KarthikeyaKollu/dashboard-react.git",
+    Project_link: "https://github.com/KarthikeyaKollu/dashboard-react.git",
   },
   {
-    name: "ClimaScope",
+    name: "MediSearch",
     description:
-      "The convenience of staying informed with real-time weather updates, precise forecasts, and personalized notifications tailored to your location, all at your fingertips.",
-    tags: [
-      {
-        name: "ReactJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-    Project_link: "",
+      "Developed a comprehensive chat interface for MediSearch,integrating cutting-edgeAI technology to deliver accurate and science-based responses to medical inquiries and transformed boring task into an engaging and efficient experience.",
+tags: [
+  {
+    name: "ReactJS",
+    color: "blue-text-gradient",
   },
   {
-    name: "Language-Translator",
+    name: "Restapi",
+    color: "green-text-gradient",
+  },
+  {
+    name: "scss",
+    color: "pink-text-gradient",
+  },
+],
+  image: medisearch,
+    source_code_link: "https://github.com/KarthikeyaKollu/medisearch.git",
+      Project_link: "https://github.com/KarthikeyaKollu/medisearch.git",
+  },
+{
+  name: "ProCase",
     description:
-      "Language Translator with Auto Language Detection! Say bye to language obstacles. Our  technology automatically identifies the language you're speaking or typing.",
+  "Engineered a robust hardware and software integration system for health monitoring, incorporating sensors togather real-time data on vital signs such as SpO2, heart rate, and temperature culminating in the health monitoring product.",
     tags: [
       {
         name: "ReactJS",
@@ -273,9 +298,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    Project_link: "",
+      image: procase,
+        source_code_link: "https://github.com/KarthikeyaKollu/smartcase.git",
+          Project_link: "https://github.com/KarthikeyaKollu/smartcase.git",
   },
 ];
 export { services, technologies, experiences, testimonials, projects };

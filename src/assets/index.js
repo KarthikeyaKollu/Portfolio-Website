@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
-
+import crm from "./crm.png"
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -24,6 +24,10 @@ import embeded from "./embeded.png";
 import opensource from "./opensource.png";
 import VLSI from "./VLSI.png";
 import prompt from "./prompt.png";
+// import continue from "./continue.png";
+import medisearch from "./medisearch.png"
+import procase from "./procase.png"
+
 
 
 import meta from "./company/meta.png";
@@ -67,6 +71,10 @@ export {
   embeded,
   opensource,
   VLSI,
-  prompt
+  prompt,
+  crm,
+  medisearch,
+  procase
+
 
 };
